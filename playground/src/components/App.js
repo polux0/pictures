@@ -1,9 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import SearchBar from './SearchBar';
 
 const App = () => {
 
-	return <div> Hello from a container! </div>;
+	return <div>
+			 Hello from a containers!
+			 <SearchBar /> 
+		   </div>;
 }
 
 
