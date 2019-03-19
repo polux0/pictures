@@ -16,7 +16,7 @@ onInputClick(){
 }
 onFormSubmit = event => {
 	event.preventDefault();
-	console.log(this.state.term);
+	this.props.onSubmit(this.state.term);
 }
 
 	render(){	
